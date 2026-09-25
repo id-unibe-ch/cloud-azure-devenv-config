@@ -18,7 +18,7 @@ nixpkgs:
 
 inputs:
   cloud-config:
-    url: github:id-unibe-ch/cloud-azure-devenv-config?dir=terraform-config
+    url: github:id-unibe-ch/cloud-devenv-config?dir=terraform-config
     flake: false
 
   git-hooks:
