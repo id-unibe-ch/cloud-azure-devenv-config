@@ -7,5 +7,8 @@
 }:
 
 {
+  packages = [
+    pkgs.marksman
+  ];
   languages.nix.enable = true;
 }
