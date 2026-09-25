@@ -18,7 +18,7 @@ nixpkgs:
 
 inputs:
   cloud-config:
-    url: github:id-unibe-ch/cloud-devenv-config?dir=terraform-config
+    url: github:id-unibe-ch/cloud-devenv-config?dir=terraform-config&ref=v1
     flake: false
 
   git-hooks:
@@ -27,6 +27,8 @@ inputs:
   nixpkgs-terraform:
     url: github:stackbuilders/nixpkgs-terraform
 ```
+
+This example pins the shared configuration to a rolling tag (see [here](../README.md) for an explanation. If you want the latest version / another tag you can specify that with the `ref` url parameter.
 
 The `devenv.nix` can be an empty configuration block:
 
