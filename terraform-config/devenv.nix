@@ -38,8 +38,6 @@ in
 
   devcontainer.enable = true;
 
-  difftastic.enable = true;
-
   tasks."terraform:init" = {
     exec = "terraform init -backend=false";
     before = [ "devenv:enterShell" ];
