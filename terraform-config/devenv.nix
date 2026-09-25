@@ -28,6 +28,7 @@ in
     pkgs.check-jsonschema
     pkgs.tflint
     pkgs.tf-summarize
+    pkgs.marksman
   ];
 
   languages.terraform = {
